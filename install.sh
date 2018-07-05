@@ -4,7 +4,6 @@ mkdir ~/.govimrc
 cp -r . ~/.govimrc/
 ln -s ~/.govimrc/vimrc ~/.vimrc
 
-<<<<<<< HEAD
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -12,10 +11,4 @@ echo "1. Run \"PlugInstall\" on vim command mode(\":\")"
 echo "2. Run below scripts for sourcecode autocompletion (youcompleteme)"
 echo "   cd ~/.vim/plugged/youcompleteme"
 echo "   ./install.py"
-=======
-echo "1. Run \"PlugInstall\" on vim command mode(\":\")"
-echo "2. Run below scripts for sourcecode autocompletion (youcompleteme)"
-echo "   cd ~/.vim/plugged/youcompleteme"
-echo "   ./install.py --all"
->>>>>>> 7bffe1ee97409666d231d7919c68766447b4b3fa
 echo "3. Now you can enjoy vim :)"
