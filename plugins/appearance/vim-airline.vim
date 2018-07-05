@@ -2,4 +2,4 @@
 " Description: Simple and Smart vimrc with classical key binding and awesome
 "              plugins.
 
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'ayu_mirage'
