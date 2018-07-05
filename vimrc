@@ -7,9 +7,13 @@ let $govimrc_path="~/.govimrc"
 source $govimrc_path/vim/basic.vim
 source $govimrc_path/vim/plugins.vim
 
+set termguicolors
 set background=dark
-"colorscheme draula
-color dracula
+"color dracula
+"let ayucolor="light" 
+"let ayucolor="mirage" 
+let ayucolor="dark" 
+colorscheme ayu
 
 try
 source ~/.govimrc/custom.vim

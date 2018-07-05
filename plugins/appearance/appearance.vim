@@ -21,6 +21,7 @@ Plug 'rakr/vim-one'
 Plug 'reedes/vim-colors-pencil'
 Plug 'liuchengxu/space-vim-dark'
 Plug 'noahfrederick/vim-noctu'
+Plug 'ayu-theme/ayu-vim'
 Plug 'miyakogi/seiya.vim'
 
 source $govimrc_path/plugins/appearance/vim-airline.vim
