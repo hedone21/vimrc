@@ -13,5 +13,6 @@ source $govimrc_path/plugins/python/python.vim
 source $govimrc_path/plugins/java/java.vim
 source $govimrc_path/plugins/go/go.vim
 source $govimrc_path/plugins/rust/rust.vim
+source $govimrc_path/plugins/gtk/gtk.vim
 
 call plug#end()
