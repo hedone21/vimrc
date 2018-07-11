@@ -16,5 +16,5 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 echo "1. Run \"PlugInstall\" on vim command mode(\":\")"
 echo "2. Run below scripts for sourcecode autocompletion (youcompleteme)"
 echo "   cd ~/.vim/plugged/youcompleteme"
-echo "   ./install.py"
+echo "   ./install.py [options]"
 echo "3. Now you can enjoy vim :)"
