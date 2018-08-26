@@ -8,7 +8,7 @@ Plug 'tpope/vim-speeddating'
 Plug 'simeji/winresizer'
 Plug 'rhysd/conflict-marker.vim'
 Plug 'romainl/vim-qf'
-Plug 'Shougo/vimproc.vim'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'Shougo/vimshell.vim'
 Plug 'tmhedberg/matchit'
 Plug 'scrooloose/syntastic'
