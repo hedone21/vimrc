@@ -10,6 +10,8 @@ Plug 'rhysd/conflict-marker.vim'
 Plug 'romainl/vim-qf'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/unite.vim'
+"Plug 'Shougo/denite.nvim'
 Plug 'tmhedberg/matchit'
 Plug 'scrooloose/syntastic'
 "Plug 'yuttie/comfortable-motion.vim'
