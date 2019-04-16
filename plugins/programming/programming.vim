@@ -7,3 +7,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tomtom/tcomment_vim'
+Plug 'majutsushi/tagbar'
+
+source $govimrc_path/plugins/programming/nerdtree-git-plugin.vim
+source $govimrc_path/plugins/programming/tagbar.vim
