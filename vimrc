@@ -15,6 +15,10 @@ set background=dark
 let ayucolor="dark" 
 colorscheme ayu
 
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
 try
 source ~/.govimrc/custom.vim
 catch
