@@ -16,5 +16,8 @@ Plug 'tmhedberg/matchit'
 Plug 'scrooloose/syntastic'
 "Plug 'yuttie/comfortable-motion.vim'
 Plug 'junegunn/goyo.vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
 
 source $govimrc_path/plugins/basic/nerdtree.vim
