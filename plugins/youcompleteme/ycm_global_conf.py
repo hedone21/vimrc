@@ -17,7 +17,7 @@ C_BASE_FLAGS = [
         '-fexceptions',
         '-ferror-limit=10000',
         '-DNDEBUG',
-        '-std=c11',
+        '-std=gnu',
         '-I/usr/lib/',
         '-I/usr/include/'
         ]
