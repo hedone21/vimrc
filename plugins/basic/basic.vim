@@ -21,3 +21,4 @@ Plug 'plasticboy/vim-markdown'
 
 
 source $govimrc_path/plugins/basic/nerdtree.vim
+source $govimrc_path/plugins/basic/markdown.vim
