@@ -6,7 +6,11 @@ call plug#begin('~/.vim/plugged')
 
 source $govimrc_path/plugins/basic/basic.vim
 source $govimrc_path/plugins/appearance/appearance.vim
-source $govimrc_path/plugins/youcompleteme/youcompleteme.vim
+if has('nvim')
+    source $govimrc_path/plugins/coc/coc.vim
+else
+    source $govimrc_path/plugins/youcompleteme/youcompleteme.vim
+endif
 source $govimrc_path/plugins/programming/programming.vim
 source $govimrc_path/plugins/cpp/cpp.vim
 source $govimrc_path/plugins/python/python.vim
