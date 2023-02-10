@@ -5,7 +5,7 @@ cp -r . ~/.govimrc/
 ln -s ~/.govimrc/vimrc ~/.vimrc
 
 mkdir -p ~/.config/nvim
-ln -s ~/.govimrc/vimrc ~/.config/nvim/init.vim
+ln -s ~/.govimrc/init.lua ~/.config/nvim/init.lua
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
