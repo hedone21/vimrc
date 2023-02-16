@@ -25,8 +25,20 @@ require('packer').startup(function(use)
 
       -- Additional lua configuration, makes nvim stuff amazing
       'folke/neodev.nvim',
+
+      -- Neovim support for LSP Inlay Hints
+      {
+        "simrat39/inlay-hints.nvim",
+        config = function()
+          require("inlay-hints").setup()
+        end,
+      },
     },
   }
+
+  -- A plugin to improve your rust experience in neovim
+  use 'simrat39/rust-tools.nvim'
+
 
   use { -- Autocompletion
     'hrsh7th/nvim-cmp',
@@ -382,6 +394,26 @@ mason_lspconfig.setup_handlers {
     }
   end,
 }
+
+require("inlay-hints").setup()
+
+local ih = require("inlay-hints")
+
+require("rust-tools").setup({
+  tools = {
+    on_initialized = function()
+      ih.set_all()
+    end,
+    inlay_hints = {
+      auto = false,
+    },
+  },
+  server = {
+    on_attach = function(c, b)
+      ih.on_attach(c, b)
+    end,
+  },
+})
 
 -- Turn on lsp status information
 require('fidget').setup()
